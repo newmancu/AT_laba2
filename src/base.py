@@ -1,0 +1,20 @@
+
+
+# CONSTANTS
+GROUP_BRACKET = "GROUP_BRACKET"
+SQ_BRACKET = "SQ_BRACKET"
+REPEATS = "REPEATS"
+OR = "OR"
+KLINI = "KLINI"
+META = "META"
+META_NUM = "META_NUM"
+CHAR = "CHAR"
+CONCAT = 'CONCAT'
+EMPTY = 'EMPTY'
+
+SPECIALS = set(r"{}()[]|*#\\")
+
+# ERRORS
+
+class PatternError(Exception):
+  pass
